@@ -1,0 +1,33 @@
+{
+  "name": "oicai-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Discord bot built with discord.js and discord-player",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.1",
+    "@discordjs/voice": "^0.19.2",
+    "bgutils-js": "^4.0.3",
+    "discord-player": "^6.7.1",
+    "discord-player-youtubei": "^3.1.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.2.0",
+    "googlevideo": "^4.1.1",
+    "mediaplex": "^1.0.0",
+    "opusscript": "^0.0.8",
+    "simple-ytdl-core": "^1.1.1"
+  },
+  "allowScripts": {
+    "ffmpeg-static@5.3.0": true
+  }
+}
